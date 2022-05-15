@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Sloginbox = styled.div`
+export const StyledLogin = styled.form`
   display: flex;
-  color: gray;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  padding: 12px;
-`;
+  height: 100vh;
+  background-color: grey;
+`
