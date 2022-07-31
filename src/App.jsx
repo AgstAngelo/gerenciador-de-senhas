@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 import Login from './pages/Login'
 import Profile from './pages/Profile'
@@ -8,17 +8,17 @@ import About from './pages/About'
 
 import GlobalStyle from './styles/global'
 
-function App() {  
+function App() {
   return (
-    <Router>
-
-      <GlobalStyle/>
+    <>
+    <GlobalStyle/>
 
       <header>WallPass - gerenciador de senhas</header>
       
       <nav>
         <Link to="/profile"> Sua conta </Link>
         <Link to="/about"> Sobre </Link>
+        <Link to="/register"> Registrar </Link>
       </nav>
       
       <Routes>
@@ -29,8 +29,8 @@ function App() {
       </Routes>
       
       <footer> Todos os direitos reservados </footer>
-    
-    </Router>
+
+    </>
   )
 }
 
