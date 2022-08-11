@@ -1,0 +1,42 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+header{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  width: 80%;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+header,
+section,
+footer,
+button{
+  background-color: #bd5858;
+  border: 5px solid #ccc;
+  border-radius: 6px;
+}
+
+header,
+h2,
+button,
+footer{
+  margin: 5px;
+  padding: 3px;
+}
+
+h2{
+  text-align: center;
+}
